@@ -1,0 +1,441 @@
+*{
+    margin: auto;
+    padding: 0;
+    box-sizing: border-box;
+    text-transform: capitalize;
+}
+
+body{
+    background-color: rgba(236, 235, 235, 0.877);
+    height: 100vh;
+}
+
+.nav{
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    background-color: black;
+    width: 100%;
+    padding: 25px;
+    margin: 20px 0 0 0;
+}
+
+.nav ul{
+    display: flex;
+    padding: 0;
+    margin: 0;
+}
+
+.nav ul li{
+    padding: 0.1%;
+}
+
+.nav ul li a{
+    text-decoration: none;
+    color: white;
+    padding: 10px 15px;
+    cursor: pointer;
+}
+
+@media (max-width:550px){
+    .nav ul{
+        display: block;
+    }
+    .nav ul li{
+        margin-top: 40px;
+        text-align: start;
+        margin: 0px 0px 40px 10px;
+    }
+    .imgnav{
+            margin: 0 0 30px 0;
+    }
+}
+
+.nav ul li:hover{
+    transition: transform 0.7s ease;
+    background-color: orange;
+    transform: translateY(-5px);
+    border-radius: 18px;
+    list-style-type: none;
+}
+
+.bienvenida{
+    color: #bc2a2a;
+    font-family: "Rowdies", sans-serif;
+    margin-top: 50px;
+    text-align: center;
+}
+
+.con1{
+    margin: 5% 10%;
+    border-radius: 11px;
+    border-style: inherit;
+    display: -webkit-flex;
+    text-align: start;
+    font-family: "Kalam", cursive;
+    background-color: black;
+    color: white;
+    box-shadow: 12px 12px 8px -6px black;
+}
+
+.con1 p{
+    padding: 5%;
+}
+
+.con1:hover{
+    transform: translateY(-3px);
+    transition: transform 0.7s ease-in-out;
+    
+}
+
+/*.con1:hover{
+    box-shadow: 0px 15px 20px -5px orange;
+    transition: transform 0.7s ease-in-out;
+}*/
+
+.img1{
+    background-image: url(/imgs/imagen-relacionada-aventuras-viajes-carretera-inexploradoscamino-traves-paisaje-escenico-destino_73899-14009.jpg);
+    width: 1000px;
+    background-position: center;
+    height: auto;
+    margin: 0 25px 0  0 ;
+}
+
+.img1:hover{
+    opacity: 80%;
+}
+
+.img2:hover{
+    opacity: 80%;
+}
+
+.img3:hover{
+    opacity: 80%;
+}
+
+.img2{
+    background-image: url(/imgs/traveling-couple-tourists-walking-around-260nw-1476416789.jpg);
+    background-position: center;
+    width: 1000px;
+    height: auto;
+    margin: 0 0px 0  0 ;
+}
+
+.img3{
+    background-image: url(/imgs/istockphoto-1015534430-612x612.jpg);
+    width: 1000px;
+    background-position: center;
+    height: auto;
+    margin: 0 25px 0  0 ;
+}
+
+
+.con2{
+    margin: 5% 10%;
+    border-radius: 11px;
+    display: -webkit-flex;
+    text-align: start;
+    font-family: "Kalam", cursive;
+    background-color: black;
+    color: white;
+    box-shadow: 12px 12px 8px -6px black;
+}
+
+@media (max-width:550px){
+    .img1{
+        width: 0px;
+    }
+    .img2{
+        width: 0px;
+    }
+
+    .img3{
+        width: 0px;
+    }
+}
+
+.con2 p{
+    padding: 5% 5% 5% 5%;
+}
+
+
+
+.con2:hover{
+    transform: translateY(-3px);
+    transition: transform 0.7s ease-in-out;
+    
+}
+
+.con3{
+    margin: 5% 10%;
+    border-radius: 11px;
+    border-style: inherit;
+    display: -webkit-flex;
+    text-align: start;
+    font-family: "Kalam", cursive;
+    background-color: black;
+    color: white;
+    box-shadow: 12px 12px 8px -6px black;
+}
+
+.con3 p{
+    padding: 5% 5% 5% 5%;
+}
+
+.con3:hover{
+    transform: translateY(-3px);
+    transition: transform 0.7s ease-in-out;
+    
+}
+
+
+
+.ubicacion{
+    font-size: 90px;
+    text-align: center;
+    font-family: "Rowdies", sans-serif;
+    margin: 20px;
+}
+
+@media (max-width:550px){
+    .ubicacion{
+        font-size: 50px;
+        margin: 0;
+    }
+}
+
+.map{
+    text-align: center;
+    opacity: 90%;
+    margin: 0;
+    background: rgb(180, 80, 80);
+}
+
+.divmap{
+    padding: 50px ;
+    margin: 50px;
+}
+
+.video{
+    text-align: center;
+    background-color: #000;
+    margin: auto;
+}
+
+.video div{
+    padding: 50px ;
+    margin: 50px;
+}
+
+/*footer------------------------------------------*/
+
+
+.container{
+    position: relative;
+    bottom: 0;
+    width: 100%;
+}
+
+.footer{
+    position: relative;
+    width: 100%;
+    bottom: 0;
+    left: 0;
+}
+
+.newsletter{
+    display:block;
+    width: 100%;
+    position: relative;
+    top: 60px;
+    max-width: 100%;
+    margin: auto;
+    background: #303035;
+    justify-content: space-between;
+    align-items: center;
+    /*padding: 20px 15px;*/
+    border-radius: 10px;
+}
+
+.newsletter-left h2{
+    color: #fff;
+    text-transform: uppercase;
+    font-size: 1rem;
+    opacity: 0.5;
+    letter-spacing: 1px;
+}
+
+.newsletter-left h1{
+    color: #fff;
+    text-transform: uppercase;
+    font-size: 1.5rem;
+}
+
+.newsletter-right{
+    width: 500px;
+}
+
+.newsletter-input{
+    background: #fff;
+    margin: 3%;
+    padding: 5px;
+    border-radius: 20px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.newsletter-input input{
+    border: none;
+    outline: none;
+    background: transparent;
+    width: 80%;
+    padding-left: 10px;
+    font-weight: 600;
+}
+
+.newsletter-input button{
+    background: #201e1e;
+    padding: 9px 15px;
+    border-radius: 15px;
+    color: #fff;
+    cursor: pointer;
+}
+
+.newsletter-input button:hover{
+    background: #3a3939;
+}
+
+.footer-content{
+    background: #000;
+    padding: 100px 40px 40px;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.footer-main{
+    margin: 10px;
+    width: 400px;
+}
+
+.footer-main h1{
+    color: #fff;
+    font-size: 50px;
+    margin-top: 15px;
+}
+
+.footer-main p{
+    color: #fff;
+    font-size: 0.8rem;
+    line-height: 1.3rem;
+}
+
+.social-link{
+    margin: 15px 0;
+    display: flex;
+    gap: 8px;
+}
+
+.social-link a{
+    width: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-decoration: none;
+    border-radius: 5px;
+    transition: 0.3s;
+    height: 40px;
+    background: #dbd8e3;
+}
+
+.social-link a:hover{
+    opacity: 0.7;
+}
+
+.social-link a i{
+    font-size: 1.1rem;
+    color: #201e1e;
+}
+
+.links{
+    display: flex;
+    flex-direction: column;
+    width: 200px;
+    margin: 40px 0px;
+}
+
+.links p{
+    font-size: 1.3rem;
+    margin-bottom: 15px;
+    font-weight: 600;
+    color: #fff;
+}
+
+.links a{
+    font-size: 0.8rem;
+    text-decoration: none;
+    margin-bottom: 15px;
+    font-weight: 600;
+    color: #dbd8e3;
+    transition: 0.3s all;
+}
+
+
+
+
+
+
+.linkse{
+    display: flex;
+    flex-direction: column;
+    width: 200px;
+}
+
+.linkse p{
+    font-size: 1.3rem;
+    margin-bottom: 15px;
+    font-weight: 600;
+    color: #fff;
+}
+
+.linkse a{
+    font-size: 0.8rem;
+    text-decoration: none;
+    margin-bottom: 15px;
+    font-weight: 600;
+    color: #dbd8e3;
+    transition: 0.3s all;
+}
+
+
+
+
+
+
+
+
+.links a:hover{
+    opacity: 0.5;
+}
+
+@media (max-width:1000px){
+    .newsletter{
+        border-radius: 0px;
+    }
+}
+
+@media (max-width:700px){
+    .newsletter{
+        flex-direction: column;
+    }
+    .newsletter-left{
+        margin-bottom: 10px;
+    }
+    .newsletter-right{
+        width: 90%;
+    }
+    .newsletter-right p{
+        padding-left: 800px;
+    }
+}
+
+
